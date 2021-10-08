@@ -157,3 +157,7 @@ C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\bin\Debug\ne
 C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_Layout — копия.cshtml.g.cs
+C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_UserPartial.cshtml.g.cs
+C:\YCHEBA\5_term\ИГИ\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
