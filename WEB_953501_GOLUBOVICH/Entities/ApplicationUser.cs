@@ -8,6 +8,6 @@ namespace WEB_953501_GOLUBOVICH.Entities
 {
     public class ApplicationUser : IdentityUser
     {
-        public byte[] AvatarImage { get; set; }
+        public byte[] AvatarImage { get; set; } 
     }
 }

@@ -26,8 +26,15 @@ using WEB_953501_GOLUBOVICH.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\Views\_ViewImports.cshtml"
+using WEB_953501_GOLUBOVICH.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b356daf7604400bb7e9362e2ddb564dac258af7a", @"/Views/Shared/Components/Menu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5613b9f860c133b7b00c2af67114ba2b0e6dde96", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9defa1568506a9b4ad395336f441cba65fbb4047", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Menu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<MenuItem>>
     {
         #line hidden
@@ -74,7 +81,7 @@ using WEB_953501_GOLUBOVICH.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b356daf7604400bb7e9362e2ddb564dac258af7a3704", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b356daf7604400bb7e9362e2ddb564dac258af7a3896", async() => {
                 WriteLiteral("\n                ");
 #nullable restore
 #line 16 "E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\Views\Shared\Components\Menu\Default.cshtml"
@@ -139,7 +146,7 @@ AddHtmlAttributeValue(" ", 294, item.Active, 295, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b356daf7604400bb7e9362e2ddb564dac258af7a7088", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b356daf7604400bb7e9362e2ddb564dac258af7a7280", async() => {
                 WriteLiteral("\n                ");
 #nullable restore
 #line 24 "E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\Views\Shared\Components\Menu\Default.cshtml"

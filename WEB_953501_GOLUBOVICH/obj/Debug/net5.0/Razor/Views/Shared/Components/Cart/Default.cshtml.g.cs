@@ -26,8 +26,15 @@ using WEB_953501_GOLUBOVICH.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\Views\_ViewImports.cshtml"
+using WEB_953501_GOLUBOVICH.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b7a50a6b8d56b4db7bd1b0c4529c59a808b0bda", @"/Views/Shared/Components/Cart/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5613b9f860c133b7b00c2af67114ba2b0e6dde96", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9defa1568506a9b4ad395336f441cba65fbb4047", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Cart_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -58,7 +65,7 @@ using WEB_953501_GOLUBOVICH.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b7a50a6b8d56b4db7bd1b0c4529c59a808b0bda4122", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b7a50a6b8d56b4db7bd1b0c4529c59a808b0bda4314", async() => {
                 WriteLiteral("\n    00,0 руб.(0) <i class=\"fas fa-shopping-cart nav-color\"></i>\n");
             }
             );

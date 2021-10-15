@@ -330,3 +330,5 @@ E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Areas\Iden
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ValidationScriptsPartial.cshtml.g.cs
+E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Product\_ListItemPartial.cshtml.g.cs
