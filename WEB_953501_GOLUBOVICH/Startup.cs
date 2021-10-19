@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -7,12 +8,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WEB_953501_GOLUBOVICH.Data;
 using WEB_953501_GOLUBOVICH.Entities;
+using WEB_953501_GOLUBOVICH.Extensions;
+using WEB_953501_GOLUBOVICH.Services;
 
 namespace WEB_953501_GOLUBOVICH
 {
@@ -53,12 +57,24 @@ namespace WEB_953501_GOLUBOVICH
                 options.LoginPath = $"/Identity/Account/Login";
                 options.LogoutPath = $"/Identity/Account/Logout";
             });
+
+            services.AddDistributedMemoryCache();
+            services.AddSession(opt =>
+            {
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.IsEssential = true;
+            });
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<Cart>(sp => CartService.GetCart(sp));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext context, 
-            UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+            UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, ILoggerFactory logger)
         {
+            logger.AddFile("Logs/log-{Date}.txt");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -77,6 +93,8 @@ namespace WEB_953501_GOLUBOVICH
 
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSession();
+            app.UseFileLogging();
 
             DbInitializer.Seed(context, userManager, roleManager).Wait();
 

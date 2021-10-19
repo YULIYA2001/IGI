@@ -17,10 +17,13 @@ namespace WEB_953501_GOLUBOVICH
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+            Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            }).ConfigureLogging(lp =>
+            {
+                lp.ClearProviders();
+                lp.AddFilter("Microsoft", LogLevel.None);
+            });
     }
 }
