@@ -1,0 +1,7 @@
+2021-10-20T15:17:47.7668705+03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2021-10-20T15:17:47.7750108+03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-10-20T15:17:47.7754195+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-20T15:17:47.7754616+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-20T15:17:47.7754961+03:00  [INF] Content root path: "E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH" (b5d60022)
+2021-10-20T15:17:49.2027782+03:00  [INF] Request /lib/font-awesome/webfonts/fa-brands-400.woff2 returns status code 404 (c415d959)
+2021-10-20T15:17:49.2027782+03:00  [INF] Request /lib/font-awesome/webfonts/fa-solid-900.woff2 returns status code 404 (36d317ac)

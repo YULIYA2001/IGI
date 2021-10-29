@@ -27,7 +27,7 @@ namespace WEB_953501_GOLUBOVICH.Controllers
         [Route("Catalog/Page_{PageNo}")]
         public IActionResult Index(int? group, int pageNo=1)
         {
-            //var groupMame = group.HasValue?_context.DishGroups.Find(group.Value)?.GroupName:"all groups";
+            //var groupMame = group.HasValue? _context.DishGroups.Find(group.Value)?.GroupName: "all groups";
             //_logger.LogInformation($"info: group={group}, page={pageNo}");
             var dishesFiltered = _context.Dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
             // Поместить список групп во ViewData

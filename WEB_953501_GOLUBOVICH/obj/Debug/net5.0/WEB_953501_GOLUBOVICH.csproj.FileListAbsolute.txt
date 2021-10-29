@@ -309,7 +309,6 @@ E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Home
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_Layout — копия.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\WEB_953501_GOLUBOVICH\WEB_953501_GOLUBOVICH\obj\Debug\net5.0\Razor\Views\Shared\_UserPartial.cshtml.g.cs

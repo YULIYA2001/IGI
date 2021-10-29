@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hQgVnSz3CrMdozVG+iiWUoIR0blSEmUdjrayQQuDNAFxA9y+BxfYwXC+fzZx4paS5jp0BdJvMI7Q1UyPECE1IA==",
+  "dgSpecHash": "ix5mlpndHo9fk0DPYFvIfw0/uCDHIkbSzZ2a2JHmw/dyc4yvXjTT36SqtocZDLQdaqUwd4r66L1mvgRCZRMODQ==",
   "success": true,
   "projectFilePath": "E:\\WEB_953501_GOLUBOVICH\\WEB_953501_GOLUBOVICH\\WEB_953501_GOLUBOVICH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.11\\microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",
-    "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.9.nupkg.sha512",
+    "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.11\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.11\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\Компьютер Лехи\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.11\\microsoft.aspnetcore.identity.ui.5.0.11.nupkg.sha512",
